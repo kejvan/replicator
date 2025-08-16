@@ -1,0 +1,28 @@
+{
+  "name": "replicant",
+  "displayName": "Replicant",
+  "description": "Generated themes based on Atom One Dark",
+  "version": "1.0.0",
+  "publisher": "Knisle",
+  "author": "Keivan",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Replicant Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/replicant-blue.json"
+      },
+      {
+        "label": "Replicant One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/replicant-one-dark.json"
+      }
+    ]
+  }
+}
