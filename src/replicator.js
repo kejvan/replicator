@@ -433,6 +433,22 @@ function generateTheme(themeMetadata, uiColors, syntaxColors) {
         }
       },
       {
+        name: 'String Punctuation',
+        scope: [
+          'punctuation.definition.string.begin',
+          'punctuation.definition.string.end',
+          'punctuation.definition.string.template.begin',
+          'punctuation.definition.string.template.end',
+          'string.quoted.single punctuation.definition.string',
+          'string.quoted.double punctuation.definition.string',
+          'string.quoted.triple punctuation.definition.string',
+          'string.template punctuation.definition.string'
+        ],
+        settings: {
+          foreground: syntaxColors.string
+        }
+      },
+      {
         name: 'String Escape',
         scope: [
           'constant.character.escape',
