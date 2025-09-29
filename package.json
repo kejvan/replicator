@@ -1,0 +1,15 @@
+{
+  "name": "replicator",
+  "version": "1.0.0",
+  "description": "A VS Code theme generator inspired by Atom One Dark",
+  "main": "src/replicator.js",
+  "scripts": {
+    "build": "node src/replicator.js",
+    "generate": "node src/replicator.js"
+  },
+  "author": "Keivan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
